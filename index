@@ -224,7 +224,43 @@
                         Hyper Local SEO Rollout <span class="status-label status-active">Active</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Mid-tier market rollout for Local Buzz starting with Nashville. Using Figma, Claude Code, and Vercel for implementation.
+                        Nashville launch using Boring Marketers strategy: Figma, Claude Code, Vercel. Targeting venues, caterers, planners.
+                    </div>
+                </div>
+
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        VendorHive.ai CRM Launch <span class="status-label status-active">Active</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        GoHighLevel build with FuseMate (Phase 1 & 2). AI-enhanced CRM for event vendors. Phase 1: $8K-15K.
+                    </div>
+                </div>
+
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        Meet Buzz AI Launch <span class="status-label status-active">Active</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        AI product from Umbrella. Training and implementation for client offerings.
+                    </div>
+                </div>
+
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        Reputation Management <span class="status-label status-active">Active</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Site Swan platform launch for managing online reviews and reputation.
+                    </div>
+                </div>
+
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        The Buzz Swarm Content <span class="status-label status-active">Active</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Content generation packages using Otto. Available on localbuzzagency.com.
                     </div>
                 </div>
 
@@ -233,25 +269,25 @@
                         Social Media Launch <span class="status-label status-active">Active</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Launch both Local Buzz & VendorHive using RecurPost. Preparing for client onboarding.
+                        RecurPost ($79/month) setup for both companies. Client onboarding preparation.
                     </div>
                 </div>
 
                 <div class="sub-branch active">
                     <div class="sub-branch-title">
-                        SiteSwan DIY Web-Builder <span class="status-label status-active">Active</span>
+                        SiteSwan DIY Builder <span class="status-label status-active">Active</span>
                     </div>
                     <div class="sub-branch-desc">
-                        DIY website solution for all three target markets: Venues, Planners, and Caterers.
+                        White-label website builder ($199/month + $14/site) for venues, planners, caterers.
                     </div>
                 </div>
 
                 <div class="sub-branch active">
                     <div class="sub-branch-title">
-                        Otto by Search Atlas Setup <span class="status-label status-active">Active</span>
+                        Otto Search Atlas Setup <span class="status-label status-active">Active</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Setting up for both companies, then preparing for client sales.
+                        $199/month for first 2 sites, then $59-85/site. Setup for both companies + client sales.
                     </div>
                 </div>
 
@@ -260,7 +296,7 @@
                         Outbound Lead Generation <span class="status-label status-active">Active</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Strategy rollout: Local Buzz first, then VendorHive, then client replication system.
+                        Local Buzz first, then VendorHive, then white-label system for client replication.
                     </div>
                 </div>
             </div>
@@ -269,139 +305,134 @@
             <div class="branch">
                 <div class="branch-title">
                     <div class="branch-icon">💡</div>
-                    Suggested Projects
+                    Suggested High-Priority Projects
                 </div>
                 
                 <div class="sub-branch suggested">
                     <div class="sub-branch-title">
-                        Client Onboarding System <span class="status-label status-suggested">Suggested</span>
+                        White-Label Bookkeeping Platform <span class="status-label status-suggested">Priority</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Streamlined process for new client acquisition, documentation, and initial setup.
+                        DFY bookkeeping/accounting service for VendorHive clients using VA bookkeepers. High-margin add-on service.
                     </div>
                 </div>
 
                 <div class="sub-branch suggested">
                     <div class="sub-branch-title">
-                        Analytics & Reporting Dashboard <span class="status-label status-suggested">Suggested</span>
+                        Client Onboarding Automation <span class="status-label status-suggested">Q1 2025</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Centralized reporting for client results, ROI tracking, and performance metrics.
+                        Streamlined client acquisition, documentation, and setup process for both Local Buzz and VendorHive.
                     </div>
                 </div>
 
                 <div class="sub-branch suggested">
                     <div class="sub-branch-title">
-                        Content Creation Workflow <span class="status-label status-suggested">Suggested</span>
+                        Market Expansion Framework <span class="status-label status-suggested">Q2 2025</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Scalable content production for SEO, social media, and client websites.
+                        Replicating Nashville success in Austin, Charleston, and other mid-tier markets.
                     </div>
                 </div>
 
                 <div class="sub-branch suggested">
                     <div class="sub-branch-title">
-                        Customer Support System <span class="status-label status-suggested">Suggested</span>
+                        Partner Referral Network <span class="status-label status-suggested">Ongoing</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Help desk, knowledge base, and client communication platform.
+                        Build partnerships with event industry associations, venue networks, and complementary services.
                     </div>
                 </div>
 
                 <div class="sub-branch suggested">
                     <div class="sub-branch-title">
-                        Pricing Strategy Framework <span class="status-label status-suggested">Suggested</span>
+                        Advanced Integrations Hub <span class="status-label status-suggested">Phase 2</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Tiered pricing models for different service packages and market segments.
+                        Better Proposals, Airtable, ChefTec, Nowsta, QuickBooks integrations for VendorHive clients.
                     </div>
                 </div>
             </div>
 
-            <!-- Operations & Growth -->
+            <!-- Team & Operations -->
+            <div class="branch">
+                <div class="branch-title">
+                    <div class="branch-icon">👥</div>
+                    Team & Operations
+                </div>
+                
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        Current Team Structure <span class="status-label status-active">Established</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        <strong>US Team:</strong> Amber (COO/Client Success), Kevin (Head Sales/Marketing), Joshua (CEO)<br>
+                        <strong>VAs:</strong> Jean (Creative - reports to Joshua), Kenn (Technical/SEO - reports to Kevin)
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Priority VA Hires Needed <span class="status-label status-suggested">Q4 2024</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        <strong>Sales Support/Executive Assistant VA:</strong> Lead gen, call scheduling, management support, onboarding help<br>
+                        <strong>Data/Analytics VA:</strong> Otto, Search Atlas, reporting specialist
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Business Infrastructure <span class="status-label status-suggested">Priority</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Complete business setup: Wyoming LLC ✓, PNC Bank ✓, FEIN ✓, contracts, legal docs, insurance.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Quality Assurance Process <span class="status-label status-suggested">Q1 2025</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Standardized QA for SEO work, CRM setups, website builds, and client deliverables.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Stack & Systems -->
             <div class="branch">
                 <div class="branch-title">
                     <div class="branch-icon">⚙️</div>
-                    Operations & Systems
+                    Tech Stack & Budget
                 </div>
                 
-                <div class="sub-branch suggested">
+                <div class="sub-branch active">
                     <div class="sub-branch-title">
-                        Quality Assurance Process <span class="status-label status-suggested">Suggested</span>
+                        Core Tech Stack <span class="status-label status-active">Monthly</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Standardized QA for SEO work, website builds, and social media campaigns.
+                        <strong>Primary:</strong> Otto ($199), RecurPost ($79), SiteSwan ($199+$14/site)<br>
+                        <strong>Development:</strong> Figma, Claude Code, Vercel, Microsoft 365
+                    </div>
+                </div>
+
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        VendorHive CRM Stack <span class="status-label status-active">Phase 1</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        GoHighLevel + FuseMate build ($8K-15K), White-label support, Better Proposals integration, Airtable integration.
                     </div>
                 </div>
 
                 <div class="sub-branch suggested">
                     <div class="sub-branch-title">
-                        Team Training Program <span class="status-label status-suggested">Suggested</span>
+                        Financial Management <span class="status-label status-suggested">Immediate</span>
                     </div>
                     <div class="sub-branch-desc">
-                        Standardized training for new hires and ongoing skill development.
-                    </div>
-                </div>
-
-                <div class="sub-branch suggested">
-                    <div class="sub-branch-title">
-                        Financial Tracking & KPIs <span class="status-label status-suggested">Suggested</span>
-                    </div>
-                    <div class="sub-branch-desc">
-                        Revenue tracking, profit margins, and key performance indicators dashboard.
-                    </div>
-                </div>
-
-                <div class="sub-branch suggested">
-                    <div class="sub-branch-title">
-                        Competitive Intelligence <span class="status-label status-suggested">Suggested</span>
-                    </div>
-                    <div class="sub-branch-desc">
-                        Regular monitoring of competitor strategies, pricing, and market positioning.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Strategic Partnerships -->
-            <div class="branch">
-                <div class="branch-title">
-                    <div class="branch-icon">🤝</div>
-                    Partnerships & Growth
-                </div>
-                
-                <div class="sub-branch suggested">
-                    <div class="sub-branch-title">
-                        Strategic Partnerships <span class="status-label status-suggested">Suggested</span>
-                    </div>
-                    <div class="sub-branch-desc">
-                        Partner with event industry associations, venue networks, and complementary service providers.
-                    </div>
-                </div>
-
-                <div class="sub-branch suggested">
-                    <div class="sub-branch-title">
-                        Client Retention Program <span class="status-label status-suggested">Suggested</span>
-                    </div>
-                    <div class="sub-branch-desc">
-                        Loyalty programs, upselling strategies, and long-term relationship management.
-                    </div>
-                </div>
-
-                <div class="sub-branch suggested">
-                    <div class="sub-branch-title">
-                        Market Expansion Plan <span class="status-label status-suggested">Suggested</span>
-                    </div>
-                    <div class="sub-branch-desc">
-                        Strategy for expanding beyond Nashville to other mid-tier markets.
-                    </div>
-                </div>
-
-                <div class="sub-branch suggested">
-                    <div class="sub-branch-title">
-                        Referral Network System <span class="status-label status-suggested">Suggested</span>
-                    </div>
-                    <div class="sub-branch-desc">
-                        Incentivize existing clients to refer new customers within the event industry.
+                        <strong>Budget:</strong> $75K total, $35K initial spend, $40K reserve<br>
+                        <strong>Tools:</strong> Expense tracking, profit/loss monitoring, KPI dashboards
                     </div>
                 </div>
             </div>
