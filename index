@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Buzz & VendorHive Strategic Mind Map</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .mind-map {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .title {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .central-node {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            padding: 20px;
+            border-radius: 50%;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            margin: 40px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4em;
+            font-weight: bold;
+            box-shadow: 0 10px 30px rgba(52, 152, 219, 0.3);
+        }
+
+        .branches {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .branch {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 6px solid #3498db;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .branch:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        .branch-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .branch-icon {
+            width: 30px;
+            height: 30px;
+            background: #3498db;
+            border-radius: 50%;
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .sub-branch {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 3px solid #e74c3c;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .sub-branch.active {
+            border-left-color: #27ae60;
+            background: #f0fff4;
+        }
+
+        .sub-branch.suggested {
+            border-left-color: #f39c12;
+            background: #fefbf0;
+        }
+
+        .sub-branch-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .sub-branch-desc {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+
+        .status-label {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.7em;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-left: 8px;
+        }
+
+        .status-active {
+            background: #27ae60;
+            color: white;
+        }
+
+        .status-suggested {
+            background: #f39c12;
+            color: white;
+        }
+
+        .target-market {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 30px 0;
+            font-size: 1.2em;
+        }
+
+        .market-items {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .market-item {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .branches {
+                grid-template-columns: 1fr;
+            }
+            
+            .mind-map {
+                padding: 20px;
+            }
+            
+            .title {
+                font-size: 2em;
+            }
+            
+            .central-node {
+                width: 150px;
+                height: 150px;
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mind-map">
+        <h1 class="title">Strategic Mind Map</h1>
+        <p class="subtitle">Management Team Meeting - August 24, 2025</p>
+        
+        <div class="central-node">
+            Local Buzz<br>&<br>VendorHive
+        </div>
+
+        <div class="target-market">
+            <strong>Target Market</strong>
+            <div class="market-items">
+                <span class="market-item">🎪 Venues</span>
+                <span class="market-item">🍽️ Caterers</span>
+                <span class="market-item">📋 Event Planners</span>
+            </div>
+        </div>
+
+        <div class="branches">
+            <!-- Active Projects -->
+            <div class="branch">
+                <div class="branch-title">
+                    <div class="branch-icon">🚀</div>
+                    Active Projects
+                </div>
+                
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        Hyper Local SEO Rollout <span class="status-label status-active">Active</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Mid-tier market rollout for Local Buzz starting with Nashville. Using Figma, Claude Code, and Vercel for implementation.
+                    </div>
+                </div>
+
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        Social Media Launch <span class="status-label status-active">Active</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Launch both Local Buzz & VendorHive using RecurPost. Preparing for client onboarding.
+                    </div>
+                </div>
+
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        SiteSwan DIY Web-Builder <span class="status-label status-active">Active</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        DIY website solution for all three target markets: Venues, Planners, and Caterers.
+                    </div>
+                </div>
+
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        Otto by Search Atlas Setup <span class="status-label status-active">Active</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Setting up for both companies, then preparing for client sales.
+                    </div>
+                </div>
+
+                <div class="sub-branch active">
+                    <div class="sub-branch-title">
+                        Outbound Lead Generation <span class="status-label status-active">Active</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Strategy rollout: Local Buzz first, then VendorHive, then client replication system.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Suggested Projects -->
+            <div class="branch">
+                <div class="branch-title">
+                    <div class="branch-icon">💡</div>
+                    Suggested Projects
+                </div>
+                
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Client Onboarding System <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Streamlined process for new client acquisition, documentation, and initial setup.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Analytics & Reporting Dashboard <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Centralized reporting for client results, ROI tracking, and performance metrics.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Content Creation Workflow <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Scalable content production for SEO, social media, and client websites.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Customer Support System <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Help desk, knowledge base, and client communication platform.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Pricing Strategy Framework <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Tiered pricing models for different service packages and market segments.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Operations & Growth -->
+            <div class="branch">
+                <div class="branch-title">
+                    <div class="branch-icon">⚙️</div>
+                    Operations & Systems
+                </div>
+                
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Quality Assurance Process <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Standardized QA for SEO work, website builds, and social media campaigns.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Team Training Program <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Standardized training for new hires and ongoing skill development.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Financial Tracking & KPIs <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Revenue tracking, profit margins, and key performance indicators dashboard.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Competitive Intelligence <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Regular monitoring of competitor strategies, pricing, and market positioning.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategic Partnerships -->
+            <div class="branch">
+                <div class="branch-title">
+                    <div class="branch-icon">🤝</div>
+                    Partnerships & Growth
+                </div>
+                
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Strategic Partnerships <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Partner with event industry associations, venue networks, and complementary service providers.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Client Retention Program <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Loyalty programs, upselling strategies, and long-term relationship management.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Market Expansion Plan <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Strategy for expanding beyond Nashville to other mid-tier markets.
+                    </div>
+                </div>
+
+                <div class="sub-branch suggested">
+                    <div class="sub-branch-title">
+                        Referral Network System <span class="status-label status-suggested">Suggested</span>
+                    </div>
+                    <div class="sub-branch-desc">
+                        Incentivize existing clients to refer new customers within the event industry.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add some interactivity
+        document.querySelectorAll('.sub-branch').forEach(branch => {
+            branch.addEventListener('click', function() {
+                this.style.transform = 'scale(1.02)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 200);
+            });
+        });
+
+        // Add a subtle animation on load
+        window.addEventListener('load', function() {
+            const branches = document.querySelectorAll('.branch');
+            branches.forEach((branch, index) => {
+                branch.style.opacity = '0';
+                branch.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    branch.style.transition = 'all 0.6s ease';
+                    branch.style.opacity = '1';
+                    branch.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+    </script>
+</body>
+</html>
